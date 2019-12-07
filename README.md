@@ -1,4 +1,10 @@
-# Genetic-Algorithm - Graph Problem Solved
+# Algoritmo Genético
 
-# The problem context is:
-  We have this graph 
+### Grafo.
+![Grafo](https://github.com/lucasstonehc/Genetic-Algorithm---Graph-Problem-Solved-/blob/master/graph.png)
+
+### O problema:
+  Devemos utilizar o algoritmo genético para resolver o problema do caminho com menor custo no grafo acima.
+
+
+
