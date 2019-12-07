@@ -156,7 +156,7 @@ RESULTADOS DE CROSSOVER ENTRE CHROMOSOME 1 E CHORMOSOME 2:
 Após cruzar o CHROMOSOME 1  e CHROMOSOME 2 geramos dois novos indivíduos.
 
 E para finalizar temos nossa função que irar controlar todo o fluxo.
-Começamos com uma população de 2000 indivíduos e na 9 geração foi encontrado um resultado de tamanho 18.
+Começamos com uma população de 2000 indivíduos.
 
 ```
 if __name__ == "__main__":
@@ -164,7 +164,7 @@ if __name__ == "__main__":
     size_of_population = 2000
     first_time = True
     count_generation = 0
-    while size_of_population != 1:
+    while size_of_population != 0:
         print("GENERATION ", count_generation, " WILL BE STARTED")
         population = Population(size_of_population).generated_population()
         print("The populations is")
@@ -200,5 +200,8 @@ if __name__ == "__main__":
         
         count_generation += 1
 ```
+Na imagem abaixo podemos ver que o resultado alcançado pelo AG é de 18.
+![SOLUÇÂO](https://github.com/lucasstonehc/Genetic-Algorithm---Graph-Problem-Solved-/blob/master/theresult.png)
+
 
   
